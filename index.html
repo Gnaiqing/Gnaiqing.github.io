@@ -1,1 +1,132 @@
-hello world
+<!DOCTYPE html>
+<html>
+<title>Naiqing Guan's homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="ADA7E916-022E-44FE-9442-5B9A8EB4B089.jpeg" style="width:100%" alt="This is me">
+          
+        </div>
+        <div class="w3-container">
+          <p class="w3-large"> Naiqing Guan </p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>PhD Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>University of Toronto</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>gnaiqing@gmail.com</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-large w3-text-teal"></i>About Myself</b></p>
+          <p> Hello, I am a PhD student in the computer science department of University of Toronto.
+            My supervisor is Prof. <a href=http://www.cs.toronto.edu/~koudas/> Nick Koudas</a>.
+            I conduct research in the areas of data management, big data analysis and applied machine learning.
+            In particular, I am interested in applying mathematical models to analyze 
+            data management problems arise in machine learning pipelines. You can find a list of my publications 
+            <a href=https://dblp.uni-trier.de/pid/244/1368.html>here</a>.
+            <br><br>
+            I received B.S. degree from Peking University with honor in 2020. During my undergraduate years,
+             I was fortunate to cooperate with Prof. <a href=https://ericlyun.github.io/>Yun Liang</a>, Prof. <a href=https://homepages.inf.ed.ac.uk/wenfei/>Wenfei Fan</a> 
+            and Prof. <a href=http://scholar.pku.edu.cn/leizou/home>Lei Zou</a>. 
+            <br><br>
+            In my spare time, I like reading novels and traveling. My favorite writer is Italo Calvino, among his works I enjoy <em>The Baron in the Trees</em> most.
+          
+          </p>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Robust Data Programming</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov. 2021 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Current machine learning models are powerful, but they require massive training data sets, which are labour costly to get by manual labeling.
+            Recently, there is an emerging framework named data programming, which let users write program snippets (called label functions) to label data automatically, and 
+            leverage ground truth inference techniques to aggregate dirty labels. I am working on improving the framework by improving the robustness
+            of the data programming framework. </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Effective Accuracy Estimation for Machine Learning Pipelines</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021 - Nov 2021</h6>
+          <p>When a Machine Learning model is deployed in practice, it is important to evaluate its accuracy to make 
+            sure it works as expected. However we usually do not have labels at hand for serving data, so we may direct the
+            predictions to humans to assess whether they are correct or not. In this project we designed an effective sampling method
+            for selecting predictions to be assessed by humans, and a novel estimator for evaluating model accuracy. Our paper has been 
+            accepted by SIGMOD 2022. Paper and code will be available soon.
+
+          </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Tensor Dataflow Modeling Framework Based on Relation-centric Notation</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - Aug 2020</h6>
+          <p> Accelerating tensor applications on spatial architectures provides high perfrmance and energy efficiency,
+            but requires accurate performance models for evaluating various dataflow alternatives. In this project we propose a 
+            framework TENET that models hardware dataflow of tensor applications based on a novel notation named relation-centric
+            notation. The relation-centric notation is more expressive than previous notations and support accurate metrics estimation.
+            Our paper has been accepted by ISCA 2021. &ensp;
+            <a href=https://arxiv.org/pdf/2105.01892.pdf> [Paper Link]</a>
+            <a href=https://github.com/pku-liang/TENET> [Code Link]</a>
+            </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Toronto</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2025(expected)</h6>
+          <p>PhD student - Computer Science</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Peking Univerisity</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+          <p>Bachelor Degree - Computer Science (with honor)</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
