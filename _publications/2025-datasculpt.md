@@ -4,9 +4,11 @@ collection: publications
 category: conferences
 permalink: /publication/2025-datasculpt
 date: 2025-03-28
-venue: 'EDBT 2025'
+venue: 'the 28th International Conference on Extending Database Technology (EDBT)'
 paperurl: 'https://openproceedings.org/2025/conf/edbt/paper-73.pdf'
 ---
+**Utilizing LLMs to generate cost-efficient labeling rules for data annotation.**
+
 Programmatic weak supervision methodologies expedite the labeling of extensive datasets using label functions (LFs) that encapsulate heuristic data sources. Nonetheless, the creation of precise
 LFs necessitates domain expertise and substantial endeavors. Recent advances in large language models (LLMs) have exhibited
 substantial potential across diverse tasks, including synthesizing
